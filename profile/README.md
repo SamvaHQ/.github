@@ -1,15 +1,27 @@
 # Samva
 
-Email infrastructure for product teams.
+Samva is an email API. Send your app's email in one typed call, and get delivery events and
+customer replies back as signed webhooks.
 
-Send product email through a typed API, versioned templates, inbound conversations, and signed webhooks.
-
-[Start sending](https://samva.dev/signup) · [Read the documentation](https://samva.dev/docs)
+[Start sending free](https://samva.dev/signup) · [Read the documentation](https://samva.dev/docs)
 
 ## Repositories
 
-This organization is the home for Samva's public tools, SDKs, integrations, and examples.
+| Repository                                                      | What it holds                                                                           |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [samva-typescript](https://github.com/SamvaHQ/samva-typescript) | Source of the TypeScript SDK (`samva`), `@samva/webhooks`, and `@samva/mailbox`         |
+| [samva-cli](https://github.com/SamvaHQ/samva-cli)               | Source of the `samva` CLI, with native downloads for macOS and Linux on every release   |
+| [samva-openapi](https://github.com/SamvaHQ/samva-openapi)       | The OpenAPI 3.1 description of the API, versioned and checksummed for client generators |
+| [SML](https://github.com/SamvaHQ/SML)                           | Author email templates in TSX, then compile, check, and preview them locally            |
+| [samva](https://github.com/SamvaHQ/samva)                       | Examples, cookbooks, and agent plugins for integrating Samva                            |
 
-## Community
+## Contributing
 
-Found a bug or have an idea? Open an issue in the relevant repository. For questions about using Samva, see the [documentation](https://samva.dev/docs).
+Issues and pull requests are welcome in every repository. The SDK, CLI, and OpenAPI repositories
+publish the source of each release: a maintainer applies an accepted pull request in Samva's own
+repository and credits you in the release that ships it; their CONTRIBUTING.md has the details.
+
+Please report a security vulnerability privately to [support@samva.dev](mailto:support@samva.dev),
+not in a public issue.
+
+For questions about using Samva, see the [documentation](https://samva.dev/docs).
